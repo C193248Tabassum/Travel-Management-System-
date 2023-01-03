@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/signup.css">
+
+</head>
+<body>
+<div class="signup_all">
+
+    <h1 style="margin-bottom: 0">WELCOME BACK</h1>
+    <p>Login section is here</p>
+    <div class="full">
+        <div class="image_section">
+            <img src="images/signup.png" alt="student image">
+        </div>
+        <section class="main">
+            <form action="login.php" method="post">
+
+                <label for="email">Email</label>
+                <input style="margin-bottom: 15%" type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input style="margin-bottom: 15%" type="password" id="password" name="password" required>
+                <button class="btn1" type="submit" name="login">Login</button>
+                <a style="text-decoration: none" href="signup.html">
+                    <button class="btn2" type="button" name="create_new">Create an account</button>
+                </a>
+                <!--div class="others" style="margin-top: 10%">
+                    <a href="forget_pass.php">Forgotten Password?</a>
+                </div-->
+          </form>
+        </section>
+
+    </div>
+</div>
+
+
+</body>
+</html>

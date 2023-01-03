@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: white;
+}
+
+.signup_all {
+  height: auto;
+  width: 100%;
+  padding: 0.5% 7%;
+}
+.signup_all h1 {
+  font-family: "Do Hyeon", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+.signup_all p {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.8px;
+  line-height: 1.7rem;
+  margin-bottom: 3.5rem;
+  color: #424242;
+}
+@media screen and (max-width: 900px) {
+  .signup_all {
+    padding: 0.5% 1%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .signup_all {
+    margin-top: 15%;
+  }
+}
+.signup_all h1 {
+  margin-bottom: auto;
+  margin-top: 2%;
+  text-align: left;
+  margin-left: 50.5%;
+}
+@media screen and (max-width: 900px) {
+  .signup_all h1 {
+    font-size: 1.5rem;
+    margin-left: 50%;
+    margin-bottom: 1%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .signup_all h1 {
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+  }
+}
+.signup_all p {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 50.5%;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .signup_all p {
+    font-size: 0.8rem;
+    margin-left: 50%;
+    line-height: normal;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .signup_all p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+}
+.signup_all .full {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: auto 20%;
+}
+@media screen and (max-width: 550px) {
+  .signup_all .full {
+    flex-direction: column;
+  }
+}
+.signup_all .full .image_section {
+  width: 40%;
+}
+@media screen and (max-width: 900px) {
+  .signup_all .full .image_section {
+    width: 60%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .signup_all .full .image_section {
+    width: 80%;
+    height: auto;
+  }
+}
+.signup_all .full .image_section img {
+  width: 100%;
+  height: 100%;
+}
+.signup_all .full .main {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 550px) {
+  .signup_all .full .main {
+    padding: 1% 1%;
+    width: 100%;
+  }
+}
+.signup_all .full .main h1 {
+  font-family: "Do Hyeon", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+.signup_all .full .main p {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.8px;
+  line-height: 1.7rem;
+  margin-bottom: 3.5rem;
+  color: #424242;
+}
+.signup_all .full .main h1 {
+  margin-bottom: auto;
+  width: 100%;
+}
+.signup_all .full .main p {
+  margin-bottom: 2rem;
+  width: 100%;
+  font-size: 0.8rem;
+}
+.signup_all .full .main form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding: 3%;
+  margin-right: 10%;
+  margin-left: 10%;
+  box-shadow: 3px 3px 15px #8e8e8e;
+}
+@media screen and (max-width: 900px) {
+  .signup_all .full .main form {
+    width: 90%;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .signup_all .full .main form {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.signup_all .full .main form label {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.signup_all .full .main form input {
+  height: 2rem;
+  width: 100%;
+  margin-bottom: 0.8rem;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #56db95;
+}
+.signup_all .full .main form input::placeholder {
+  font-size: 0.6rem;
+  border-bottom: 0;
+  color: #707070;
+}
+.signup_all .full .main form input:focus {
+  border: none;
+}
+.signup_all .full .main form .terms {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+.signup_all .full .main form .terms input {
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  margin-right: 0.5rem;
+  margin-top: 3%;
+  border: none;
+}
+.signup_all .full .main form .terms label {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.signup_all .full .main form .name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.signup_all .full .main form .name .name-part {
+  display: flex;
+  flex-direction: column;
+}
+.signup_all .full .main form .name .name-part input {
+  width: 93%;
+}
+.signup_all .full .main form button {
+  height: 2rem;
+  width: 100%;
+  border-radius: 2rem;
+  border: none;
+  background-color: #8a49d3;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: white;
+  transition: 0.3s;
+}
+.signup_all .full .main form button:hover {
+  background-color: #b04fff;
+}
+.signup_all .full .main form .btn1 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #56db95;
+  color: #000;
+}
+.signup_all .full .main form .btn1:hover {
+  background-color: #60f4a5;
+}
+@media screen and (max-width: 900px) {
+  .signup_all .full .main form .btn2 {
+    margin-bottom: 3%;
+  }
+}
+.signup_all .full .main form .others {
+  display: flex;
+  flex-direction: column;
+}
+.signup_all .full .main form .others p {
+  text-align: center;
+  width: 100%;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+.signup_all .full .main form .others a {
+  color: #0083eb;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=signup.css.map */

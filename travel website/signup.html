@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="./images/app_logo.png">
+    <link rel="stylesheet" href="./css/signup.css">
+
+</head>
+
+<body>
+<div class="signup_all">
+    <h1>WELCOME to Travel</h1>
+    <p>Dont forget to signup to make your trip goes amazing with your loved ones</p>
+    <div class="full">
+        <div class="image_section">
+            <img src="images/res.png" alt="student image">
+        </div>
+        <section class="main">
+            <form action="signup.php" method="post">
+                <div class="name">
+                    <div class="name-part">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname" value="" required>
+                    </div>
+                    <div class="name-part">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname" value="" required>
+                    </div>
+
+                </div>
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" placeholder="minimum 6 digits with uppercase, lowercase & a number" id="password"
+                       name="password" required>
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" id="cpassword" name="cpassword" required>
+                <div class="terms">
+                    <input type="checkbox" id="check" required>
+                    <label for="check">I agree to all terms and conditions.</label>
+                </div>
+                <button class="btn1" type="submit" name="Ssignup">Sign Up</button>
+                <!--button class="btn2" type="submit" name="Tsignup">Sign Up as a Teacher</button-->
+                <div class="others">
+                    <p>Already have an Account? <a href="login.html">Login here</a></p>
+                    <a href="">Our Terms and conditions</a>
+                </div>
+            </form>
+
+        </section>
+
+    </div>
+</div>
+</body>
+</html>
